@@ -1,5 +1,5 @@
 <template>
-  <div class="d-none d-md-block">
+  <div class="d-none d-xl-block">
     <b-sidebar
       id="sidebar-1"
       title="Sidebar"
@@ -31,7 +31,7 @@
             <router-link
               active-class="active"
               class="text-white font-weight-light route-link"
-              to="/portfolio"
+              to="/"
               >PORTFOLIO</router-link
             >
             <router-link
@@ -48,9 +48,9 @@
             >
           </div>
 
-          <div class="pt-5 mt-5">
+          <!-- <div class="pt-5 mt-5">
             <p class="get-in-touch-text"> GET IN TOUCH </p>
-          </div>
+          </div> -->
         </div>
       </div>
     </b-sidebar>

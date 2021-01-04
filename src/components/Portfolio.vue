@@ -49,7 +49,7 @@
         'Back-end Firebase API && Realtime Database.',
       ]"
       status="In progress since September, 2020"
-      :progressValue="70"
+      :progressValue="50"
       :technologies="[
         'HTML',
         'SCCS',

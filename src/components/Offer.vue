@@ -17,13 +17,13 @@
       to drive data visualization requirements.
     </p>
 
-    <p>
-      The mojority business projects I am working on
+    <!-- <p>
+      The majority business projects I am working on
       <b> are not open source </b> due to politics of my company, which is why,
       I can't share them. <br />
       Although you may visit <b> portfolio </b> page that provides my side
       open-source projects.
-    </p>
+    </p> -->
 
     <div class="pt-4">
       <h3 class="pb-2"><b-icon-code></b-icon-code> FRONT-END ENGINEERING </h3>

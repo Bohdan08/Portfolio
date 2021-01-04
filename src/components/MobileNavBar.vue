@@ -1,5 +1,5 @@
 <template>
-  <div class="d-block d-md-none">
+  <div class="d-block d-xl-none">
     <b-navbar toggleable type="dark" variant="dark">
       <b-navbar-brand href="#">BM</b-navbar-brand>
 
@@ -13,8 +13,20 @@
       <b-collapse id="navbar-toggle-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
           <div id="nav" class="d-flex text-white flex-column">
-            <router-link class="text-white font-weight-light" to="/portfolio"
+            <router-link class="text-white font-weight-light route-link" to="/"
               >PORTFOLIO</router-link
+            >
+            <router-link
+              active-class="active"
+              class="text-white font-weight-light pt-2 route-link"
+              to="/offer"
+              >MY OFFER</router-link
+            >
+            <router-link
+              active-class="active"
+              class="text-white font-weight-light pt-2 route-link"
+              to="/contact"
+              >CONTACT ME</router-link
             >
           </div>
         </b-navbar-nav>
@@ -26,13 +38,12 @@
 <script>
 export default {
   name: "MobileNavBar",
-  data: function() {
-    return {
-      message: "You loaded this page on " + new Date().toLocaleString(),
-    };
-  },
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.route-link:hover {
+  font-weight: bold !important;
+  text-decoration: none;
+}
+</style>

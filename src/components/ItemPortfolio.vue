@@ -55,6 +55,7 @@
 
             <b-button
               variant="info"
+              v-if="onlineLink"
               class="mt-4 mb-4"
               :href="onlineLink"
               target="_blank"
